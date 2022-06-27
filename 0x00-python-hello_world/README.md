@@ -31,5 +31,5 @@ __Technologies__
 | 9-easter_egg.py	      |   Prints "The Zen of Python"
 | 10-check_cycle.c	    |   C program that finds a loop in a linked list
 | 100-write.py	        |   Python script that prints a message with write sys
-| 101-compile	          |   Shell script that compiles a Python file
+| 101-compile	          |   Shell script that compiles a Python script file
 | 102-magic_calculation.py	| Python function that does exactly the same as a given disassembler
