@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <unistd.h>
 
 /**
  * insert_node - inserts a number in an ordered linked list
@@ -11,34 +9,25 @@
  */
 listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *current = *head;
-	listint_t *new = NULL;
-	listint_t *temp = NULL;
-
-	if (!head)
-		return (NULL);
+	listint_t *node = *head, *new;
 
 	new = malloc(sizeof(listint_t));
-	if (!new)
+	if (new == NULL)
 		return (NULL);
 	new->n = number;
-	new->next = NULL;
 
-	if (!*head || (*head)->n > number)
+	if (node == NULL || node->n >= number)
 	{
-		new->next = *head;
-		return (*head = new);
+		new->next = node;
+		*head = new;
+		return (new);
 	}
-	else
-	{
-		while (current && current->n < number)
-		{
-			temp = current;
-			current = current->next;
-		}
-		temp->next = new;
-		new->next = current;
-	}
+
+	while (node && node->next && node->next->n < number)
+		node = node->next;
+
+	new->next = node->next;
+	node->next = new;
 
 	return (new);
 }
