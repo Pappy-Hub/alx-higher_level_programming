@@ -1,3 +1,4 @@
+<<<<<<< HEAD:0x02-python-import_modules/vi
 
 
 
@@ -85,3 +86,6 @@ def div(a, b):
     """
 
     return int(a 
+=======
+
+>>>>>>> 856c9e87f398c0e157b19b73a82b91c03ba520c8:0x02-python-import_modules/calculator_1.py
