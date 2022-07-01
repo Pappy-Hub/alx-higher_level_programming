@@ -1,91 +1,44 @@
-<<<<<<< HEAD:0x02-python-import_modules/vi
+#!/usr/bin/python3
 
-
-
-
-
-
+def add(a, b):
     """My addition function
-
     Args:
-
         a: first integer
-
         b: second integer
-
     Returns:
-
         The return value. a + b
-
     """
-
     return (a + b)
 
 
-
-
-
 def sub(a, b):
-
     """My subtraction function
-
     Args:
-
         a: first integer
-
         b: second integer
-
     Returns:
-
         The return value. a - b
-
     """
-
     return (a - b)
 
 
-
-
-
 def mul(a, b):
-
     """My multiplication function
-
     Args:
-
         a: first integer
-
         b: second integer
-
     Returns:
-
         The return value. a * b
-
     """
-
     return (a * b)
 
 
-
-
-
 def div(a, b):
-
     """My division function
-
     Args:
-
         a: first integer
-
         b: second integer
-
     Returns:
-
         The return value. a / b
-
     """
-
-    return int(a 
-=======
-
->>>>>>> 856c9e87f398c0e157b19b73a82b91c03ba520c8:0x02-python-import_modules/calculator_1.py
+    return int(a / b)
