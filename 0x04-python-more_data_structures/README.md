@@ -1,6 +1,6 @@
 __0x04. Python - More Data Structures: Set, Dictionary__
 --------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-Project done during Full Stack Software Engineering studies at Holberton School. It aims to learn about variables, basics commands (print) and handle strings with Python.
+Project done during Full Stack Software Engineering studies at Holberton School. It aims to learn about sets, dictionaries and functions to handle data structures like lambda, map, reduce and filter in Python.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __Technologies__
